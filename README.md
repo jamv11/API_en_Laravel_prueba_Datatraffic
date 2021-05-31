@@ -25,5 +25,14 @@ INSTALACIÓN
 EJECUCION
 
 - Iniciar el servidor en la carpeta raiz del proyecto con el comando: php artisan serve
+    
+- Ejecutar el programa POSTMAN
+  
+- Ejecutar el programa DB Browser for SQLite
+    
+CARACTERISTICAS
+    
+- El CRUD API realiza las operaciones de: mostrar, crear, modificar y eliminar.
+- El CRUD API trabaja con la Base de datos local proporcionada en la prueba.
   
 
