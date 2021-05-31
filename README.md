@@ -12,27 +12,18 @@ INSTALACIÓN
 
 - Instalar el manejador de dependencias Compouser: https://getcomposer.org/Composer-Setup.exe
 
-- Luego ejecutar el siguiente comando en el simbolo del sistema para la instalación global de Laravel: composer global require laravel/installer
+- Ejecutar el siguiente comando en el simbolo del sistema para la instalación global de Laravel: composer global require laravel/installer
 
-- Crear un directorio y clonar los archivos desde el repositorio remoto con el siguiente comando: git clone https://github.com/jamv11/API_en_Laravel_prueba_Datatraffic.git
+- Crear un directorio y clonar los archivos desde el repositorio remoto con el siguiente comando y dirección: git clone https://github.com/jamv11/API_en_Laravel_prueba_Datatraffic.git
 
-Instalar POSTMAN o cualquier herramienta.
-Instalar DB Browser for SQLite.
+- Instalar dependencias de laravel ingresando en la raiz del proyecto con cd <carpeta raiz del proyecto> y ejecutar el comando: composer install
+
+- Instalar POSTMAN para la manipulación del CRUD API: https://www.postman.com/downloads/
+ 
+- Instalar DB Browser for SQLite para abrir el archivo de base de datos rickandmorty_v1: https://sqlitebrowser.org/dl/
 
 EJECUCION
 
-
-
-FRONTEND
-
-cd ./client
-npm run start:dev
-
-
-
-
-BACKEND
-
-cd ./server
-npm run start:dev
+- Iniciar el servidor en la carpeta raiz del proyecto con el comando: php artisan serve
+  
 
